@@ -1,0 +1,9 @@
+# Forçar LF para arquivos de código e texto
+* text=auto eol=lf
+
+# Manter CRLF para arquivos de script do Windows
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+*.css text eol=lf
+*.js text eol=lf

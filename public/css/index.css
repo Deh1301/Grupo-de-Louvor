@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&family=Pacifico&family=Playwrite+RO:wght@100..400&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+header h1 {
+  padding: 10px;
+  text-align: center;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  border: 2px groove orange;
+  font-style: normal;
+}
+
+article {
+  border: 1px solid orange;
+  width: 20%;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+article:hover {
+  border: 5px solid orange;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  display: none;
+}
+li:hover {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input{
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+svg {
+  width: 25px;
+  height: 25px;
+}
+
+footer {
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  background-color: black;
+  padding: 10px;
+  color: aliceblue;
+}
+
+@media (max-width: 660px) {
+  header {
+    width: 100%;
+  }
+
+  article {
+    width: 50%;
+    margin-left: 90px;
+    border: 2px solid orange;
+    text-align: center;
+    font-weight: lighter;
+  }
+  article:hover {
+    border: none;
+  }
+
+  footer {
+    margin-top: 550px;
+  }
+  p {
+    text-align: center;
+  }
+  input {
+    padding: 5px;
+    margin-left: 90px;
+    margin-top: 5px;
+    border: 2px solid orange;
+  }
+
+  svg {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: absolute;
+  }
+}

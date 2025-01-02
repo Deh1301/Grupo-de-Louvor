@@ -1,0 +1,13 @@
+.jefSueli{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -31.6%;
+}
+
+@media (max-width:660px){
+    .jefSueli{
+        margin-left: 90px;
+        margin-top: 40px;
+        font-size: 13px;
+    }
+}
